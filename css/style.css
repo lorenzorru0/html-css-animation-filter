@@ -127,13 +127,25 @@
     transform: scale(1.5);
 }
 
+.ex-11-icon:hover {
+    animation: rotating-3-4 1.5s ease infinite;
+}
+
 /* Keyframes  */
 @keyframes rotating {
-    from {
+    0% {
         transform: rotate(0deg);
     }
-
-    to {
+    100% {
         transform: rotate(360deg);
     }
 } 
+
+@keyframes rotating-3-4 {
+    0% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+}
