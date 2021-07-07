@@ -46,6 +46,7 @@
 }
 .ex-10-icon {
     font-size: 60px;
+    animation: rotating 2s linear infinite;
 }
 .ex-11-icon {
     font-size: 60px;
@@ -125,3 +126,14 @@
     border-radius: 30px;
     transform: scale(1.5);
 }
+
+/* Keyframes  */
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+} 
