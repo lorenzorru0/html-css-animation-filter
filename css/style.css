@@ -36,6 +36,7 @@
 
 .ex-8-img {
     width: 500px;
+    transition: filter 1s, border-radius 1s;
 }
 
 .ex-9-img {
@@ -108,5 +109,11 @@
 
 .ex-7-img:hover {
     filter: sepia(0.8);
-    filter: invert(0.2);
+    filter: drop-shadow(0.5);
+}
+
+.ex-8-img:hover {
+    filter: contrast(0.5);
+    filter: sepia(0.5);
+    border-radius: 30px;
 }
